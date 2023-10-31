@@ -35,14 +35,6 @@ public class Meal extends AbstractBaseEntity {
         this.userId = userId;
     }
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
     public LocalDateTime getDateTime() {
         return dateTime;
     }
@@ -65,10 +57,6 @@ public class Meal extends AbstractBaseEntity {
 
     public Integer getUserId() {
         return userId;
-    }
-
-    public boolean isNew() {
-        return id == null;
     }
 
     @Override
